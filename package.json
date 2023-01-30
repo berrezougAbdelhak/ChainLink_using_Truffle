@@ -1,0 +1,26 @@
+{
+  "name": "chainlink_using_truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berrezougAbdelhak/ChainLink_using_Truffle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berrezougAbdelhak/ChainLink_using_Truffle/issues"
+  },
+  "homepage": "https://github.com/berrezougAbdelhak/ChainLink_using_Truffle#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.0",
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "dotenv": "^16.0.3",
+    "truffle": "^5.7.4"
+  }
+}
