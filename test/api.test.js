@@ -22,4 +22,8 @@ describe("GetInformation",()=>{
         let owner=await getPresident.methods.owner().call()
         assert.equal(owner,accounts[0])
     })
+    it("checks the president ",async()=>{
+        let president=await getPresident.methods.president().call()
+        console.debug("president is ",president)
+    })
 })
